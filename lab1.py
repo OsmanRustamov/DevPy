@@ -31,4 +31,5 @@ def task5():
     price_in_dollars, price_in_cent, amount = input("Enter price of pie "), input(), input("Enter amount of pies ")
     cost = int(price_in_dollars + price_in_cent) * int(amount)
     return f"to be paid {str(cost)[0] + str(cost)[1]} dollars {str(cost)[2] + str(cost)[3]} cent"
+
 print(task5())
